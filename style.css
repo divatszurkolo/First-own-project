@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-section{
+    background-color: rgb(60, 60, 185);
+}
+#Menu{
+    font-size: 55px;
+    color: rgb(136, 143, 141);
+}
+.menu-point{
+    font-size: 18px;
+    color: aliceblue;
+    margin: 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
